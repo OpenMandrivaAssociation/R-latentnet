@@ -13,6 +13,8 @@ Requires:         R-network R-shapes R-abind R-tools R-mvtnorm R-coda
 Requires:         R-KernSmooth R-snowFT R-ergm R-rgl 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-network R-shapes R-abind R-tools R-mvtnorm R-coda
 BuildRequires:    R-KernSmooth R-snowFT R-ergm R-rgl 
+BuildRequires:    blas-devel
+BuildRequires:    lapack-devel
 
 %description
 A package to fit and simulate latent position and cluster models for
