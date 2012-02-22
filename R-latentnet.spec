@@ -9,10 +9,11 @@ Group:            Sciences/Mathematics
 License:          file LICENSE
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_2.4-1.tar.gz
-Requires:         R-network R-shapes R-abind R-tools R-mvtnorm R-coda 
-Requires:         R-KernSmooth R-snowFT R-ergm R-rgl 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-network R-shapes R-abind R-tools R-mvtnorm R-coda
-BuildRequires:    R-KernSmooth R-snowFT R-ergm R-rgl 
+Requires:         R-network R-shapes R-abind R-tools R-mvtnorm R-coda
+Requires:         R-KernSmooth R-snowFT R-ergm R-rgl
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-network R-shapes R-abind R-tools R-mvtnorm R-coda
+BuildRequires:    R-KernSmooth R-snowFT R-ergm R-rgl
 BuildRequires:    blas-devel
 BuildRequires:    lapack-devel
 
