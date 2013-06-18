@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          2.4.2
-Release:          1
+Release:          2
 Summary:          Latent position and cluster models for statistical networks
 Group:            Sciences/Mathematics
 License:          file LICENSE
