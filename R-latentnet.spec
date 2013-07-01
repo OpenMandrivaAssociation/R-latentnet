@@ -35,7 +35,7 @@ rm -f %{buildroot}%{rlibdir}/R.css
 # FIXME Should eventually finish on i586, but after 5 hours at 100% cpu
 # did not finish. Works fine on x86_64, so, could beh a real problem
 # that only happens in i586.
-%ifarch x86_64
+%ifarch 0
 %check
 %{_bindir}/R CMD check %{packname}
 %endif
