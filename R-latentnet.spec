@@ -2,18 +2,20 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          2.4.2
-Release:          2
+Version:          2.4.5
+Release:          1
 Summary:          Latent position and cluster models for statistical networks
 Group:            Sciences/Mathematics
 License:          file LICENSE
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/latentnet_2.4-2.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/latentnet_2.4-5.tar.gz
 Requires:         R-network R-shapes R-abind R-tools R-mvtnorm R-coda
 Requires:         R-KernSmooth R-snowFT R-ergm R-rgl
+Requires:         R-statnet.common
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex
 BuildRequires:    R-network R-shapes R-abind R-tools R-mvtnorm R-coda
 BuildRequires:    R-KernSmooth R-snowFT R-ergm R-rgl
+BuildRequires:    R-statnet.common
 BuildRequires:    blas-devel
 BuildRequires:    lapack-devel
 

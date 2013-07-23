@@ -1,4 +1,5 @@
 removed_sources:
   latentnet_2.4-1.tar.gz: d57962a807388f96c3ddae124e99e84badbf4b8b
-sources:
   latentnet_2.4-2.tar.gz: 04b36b6166dd121ea5e1bf74c7f74fcb26dc0f6c
+sources:
+  latentnet_2.4-5.tar.gz: 78497e23cdd3ba11f713b32fbf23dd68330101b5
