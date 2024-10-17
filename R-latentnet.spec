@@ -7,7 +7,7 @@ Release:          1
 Summary:          Latent position and cluster models for statistical networks
 Group:            Sciences/Mathematics
 License:          file LICENSE
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/latentnet_2.4-5.tar.gz
 Requires:         R-network R-shapes R-abind R-tools R-mvtnorm R-coda
 Requires:         R-KernSmooth R-snowFT R-ergm R-rgl
